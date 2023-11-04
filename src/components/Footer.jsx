@@ -7,6 +7,8 @@ import { NavLink } from '@/components/NavLink'
 
 import DiscordLogo from '@/images/logos/discord.svg'
 import GitHubLogo from '@/images/logos/github.svg'
+import TwiiterLogo from '@/images/logos/twitter_x.svg'
+import LinkedinLogo from '@/images/logos/linkedin.svg'
 import WeMakeDevs from '@/images/logos/WeMakeDevs.jpg'
 import ContentCreators4Cs from '@/images/logos/ContentCreators4Cs.jpg'
 
@@ -82,6 +84,30 @@ export function Footer() {
                 width="30"
                 height="30"
                 alt="GitHub logo"
+              />
+            </Link>
+            <Link
+              href="https://twitter.com/eddiejaoude"
+              className="group"
+              aria-label="EddieHub on Twiiter/x"
+            >
+              <Image
+                src={TwiiterLogo}
+                width="30"
+                height="30"
+                alt="Twitter/x logo"
+              />
+            </Link>
+            <Link
+              href="https://www.linkedin.com/company/eddiehub/"
+              className="group"
+              aria-label="EddieHub on Linkedin"
+            >
+              <Image
+                src={LinkedinLogo}
+                width="30"
+                height="30"
+                alt="Linkedin logo"
               />
             </Link>
           </div>

@@ -34,9 +34,5 @@ export function Button({ variant, color, className, ...props }) {
     className,
   )
 
-  return typeof props.href === 'undefined' ? (
-    <button className={className} {...props} />
-  ) : (
-    <Link className={className} {...props} />
-  )
+  return typeof props.href === 'undefined' ? ( <button className={className} {...props} />) : ( <Link className={className} {...props} />)
 }
